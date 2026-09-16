@@ -11,13 +11,26 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
 # macOS
 .DS_Store
 **/.DS_Store
 
-# SwiftPM
+# Swift Package Manager
 .build/
 .swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
 
 # Scripts temp
 scripts/__pycache__/

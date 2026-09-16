@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E55178119F247E89301D72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1AD12FAF84AFCB71ED924 /* Assets.xcassets */; };
+		1A567F2791CB474DB5009C97 /* BorderGlowAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B951B4344EE8A3348C64 /* BorderGlowAnimator.swift */; };
+		1DB584523229450C98AD00A2 /* south-america.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EDEDC42544963A43B4FAE /* south-america.json */; };
+		24FE446BF8EE445D94018D02 /* ParticleShaderSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6665D46C3AC42E78B76C9B9 /* ParticleShaderSource.swift */; };
+		296086E2E43F42028BAC1205 /* asia.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4C6FCBC4E34C529909916A /* asia.json */; };
+		2A9EBE8F893247219B50D3DE /* north-america.json in Resources */ = {isa = PBXBuildFile; fileRef = D9B68F6DEBCE43BFB6423138 /* north-america.json */; };
+		3219FC7226AD4D0F8376FB9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2580CC6484F488D1C97E5 /* ContentView.swift */; };
+		39A4B9A98394447ABF7A168F /* CustomizationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD143DA77494E71BDBC7FBB /* CustomizationPanel.swift */; };
+		3B0D12813A804CE5B697AA44 /* WorldLoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BEAC0A1F384B7A9220C623 /* WorldLoaderController.swift */; };
+		40DF6E547FC84CC887E66A32 /* WorldLoaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B5212BE5A49C7866F8291 /* WorldLoaderApp.swift */; };
+		41A5BEC20C2249F08FF1D96D /* DotShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E0353E64D48F9BDE00B1A /* DotShapeView.swift */; };
+		45544C001B334F89932FE4DB /* china.json in Resources */ = {isa = PBXBuildFile; fileRef = 11AEF460062B4511A8C74085 /* china.json */; };
+		5D48F5C80F424F5AB27F8941 /* india.json in Resources */ = {isa = PBXBuildFile; fileRef = B77D79363E95417BB42EEFC5 /* india.json */; };
+		5F0091DF5E2641DBB2C45248 /* canada.json in Resources */ = {isa = PBXBuildFile; fileRef = E40B519AAC1249EE841B8B0C /* canada.json */; };
+		6079DE9486A24E69BD642687 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 94EBB37232E4414EAA2B731B /* catalog.json */; };
+		6D70EF954CE241F690B417B5 /* africa.json in Resources */ = {isa = PBXBuildFile; fileRef = 6230C7926B284294BEE053D7 /* africa.json */; };
+		73328F2BE9C04CD0A2D5F4D2 /* antarctica.json in Resources */ = {isa = PBXBuildFile; fileRef = FFCA612E37034BFC85F14A5C /* antarctica.json */; };
+		7542834D82EB43D38C0E166A /* MapResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C62CA5194BF4A0FA4C0638B /* MapResources.swift */; };
+		75830292E2E84829AF31D240 /* MapMorpher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E42EEC26A3D451AA4C722C7 /* MapMorpher.swift */; };
+		7C2BA4F964C44C46B98A90F4 /* FullScreenLoaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8A0647CCF4EE9A9BAA6A7 /* FullScreenLoaderDemo.swift */; };
+		7CFCAB4EC6EA4C28AC744A8C /* MapPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F37D239944000891FF4E5 /* MapPickerView.swift */; };
+		7E039C60161B493D939A1EE9 /* TouchResponseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF85C3F9BF84A76A26D1DF9 /* TouchResponseEngine.swift */; };
+		81D1AB966FC54B719C23D463 /* DotFieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42CCC7B62A64F5D95519B6E /* DotFieldGenerator.swift */; };
+		9BB2BCF9D38843ED82604CDD /* WorldLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A10D49A04C45F2B55147F9 /* WorldLoaderView.swift */; };
+		9BEA4E6711CE430290B4DA67 /* united-states.json in Resources */ = {isa = PBXBuildFile; fileRef = B4614A8BFDA140E0B9B8B622 /* united-states.json */; };
+		A3E24DC21F5F4DD6A1C17314 /* LoaderPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512EDF168C2140C38A12DFE8 /* LoaderPresentationStyle.swift */; };
+		AB5B2AAA57D641048D292C09 /* RefreshLoaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02C142A7B5462DB73A36F5 /* RefreshLoaderDemo.swift */; };
+		B55C1071A6DA4DC2B4344D5F /* brazil.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C6FA33CFC4C4B0897CA088F /* brazil.json */; };
+		B5C27BC95C394B918CE4E4BE /* australia-country.json in Resources */ = {isa = PBXBuildFile; fileRef = 87B7008AC1184CFF96906563 /* australia-country.json */; };
+		BA22AEF35AA24D40B79BCB3F /* ContainerLoaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418EEF6ED284733B3C1243B /* ContainerLoaderDemo.swift */; };
+		D067BAAF279D44C39AFFFF32 /* MapDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6FAD54E4948F9A125D3DE /* MapDot.swift */; };
+		D16A17ADAAD64EB3B4B2E511 /* russia.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C53379FE2204B66B5781680 /* russia.json */; };
+		D7C442DE13264CFA8166D018 /* WorldLoaderRefreshContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BFE56F9A3412E8DEC8A1C /* WorldLoaderRefreshContainer.swift */; };
+		D81D9F9412A249D6A188FD5A /* WorldLoaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089AA06E01BA43D2834AC96E /* WorldLoaderConfig.swift */; };
+		D8DB554D2212484C9BD3636B /* australia.json in Resources */ = {isa = PBXBuildFile; fileRef = 912D03CA0FCB4320A4C12299 /* australia.json */; };
+		E11811C1760E46A39BC0F9EB /* MetalDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7DB83075C4851B34F83AC /* MetalDotView.swift */; };
+		E13F98AAB3A24C1FA00F8B67 /* DemoHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB68959B46843B49B48CCFF /* DemoHomeView.swift */; };
+		E2778094203A4E53B01DCF4E /* MapCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3DC99BC8CD4EA6867FA6F3 /* MapCatalog.swift */; };
+		EE857AA04A0741569F3D9A09 /* MapLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC33B2FA424F7E88AE48CF /* MapLayout.swift */; };
+		F001AC263E464EB996450ADF /* MapDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C685B152B4F489203B4AB /* MapDefinition.swift */; };
+		FF9A6F17A3A44D008E2430AC /* DotShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7BDBC791246C2AD3E1C0A /* DotShape.swift */; };
+		FFFADEA6B07049A688F52334 /* europe.json in Resources */ = {isa = PBXBuildFile; fileRef = D41CF25FD3E94AA593FD1078 /* europe.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089AA06E01BA43D2834AC96E /* WorldLoaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLoaderConfig.swift; sourceTree = "<group>"; };
+		0B3DC99BC8CD4EA6867FA6F3 /* MapCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCatalog.swift; sourceTree = "<group>"; };
+		0C8EDEDC42544963A43B4FAE /* south-america.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "south-america.json"; sourceTree = "<group>"; };
+		11AEF460062B4511A8C74085 /* china.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = china.json; sourceTree = "<group>"; };
+		1AB68959B46843B49B48CCFF /* DemoHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHomeView.swift; sourceTree = "<group>"; };
+		1C62CA5194BF4A0FA4C0638B /* MapResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResources.swift; sourceTree = "<group>"; };
+		1C6FA33CFC4C4B0897CA088F /* brazil.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brazil.json; sourceTree = "<group>"; };
+		1F70B951B4344EE8A3348C64 /* BorderGlowAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderGlowAnimator.swift; sourceTree = "<group>"; };
+		2AC1AD12FAF84AFCB71ED924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD143DA77494E71BDBC7FBB /* CustomizationPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationPanel.swift; sourceTree = "<group>"; };
+		30BEAC0A1F384B7A9220C623 /* WorldLoaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLoaderController.swift; sourceTree = "<group>"; };
+		488B5212BE5A49C7866F8291 /* WorldLoaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLoaderApp.swift; sourceTree = "<group>"; };
+		512EDF168C2140C38A12DFE8 /* LoaderPresentationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderPresentationStyle.swift; sourceTree = "<group>"; };
+		5C53379FE2204B66B5781680 /* russia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = russia.json; sourceTree = "<group>"; };
+		6230C7926B284294BEE053D7 /* africa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = africa.json; sourceTree = "<group>"; };
+		687E0353E64D48F9BDE00B1A /* DotShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotShapeView.swift; sourceTree = "<group>"; };
+		6C4C6FCBC4E34C529909916A /* asia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = asia.json; sourceTree = "<group>"; };
+		6E42EEC26A3D451AA4C722C7 /* MapMorpher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMorpher.swift; sourceTree = "<group>"; };
+		71B8A0647CCF4EE9A9BAA6A7 /* FullScreenLoaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenLoaderDemo.swift; sourceTree = "<group>"; };
+		7291C230BB224689A42AC6B5 /* WorldLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418EEF6ED284733B3C1243B /* ContainerLoaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerLoaderDemo.swift; sourceTree = "<group>"; };
+		7B02C142A7B5462DB73A36F5 /* RefreshLoaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshLoaderDemo.swift; sourceTree = "<group>"; };
+		821BFE56F9A3412E8DEC8A1C /* WorldLoaderRefreshContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLoaderRefreshContainer.swift; sourceTree = "<group>"; };
+		843C685B152B4F489203B4AB /* MapDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDefinition.swift; sourceTree = "<group>"; };
+		87B7008AC1184CFF96906563 /* australia-country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "australia-country.json"; sourceTree = "<group>"; };
+		912D03CA0FCB4320A4C12299 /* australia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = australia.json; sourceTree = "<group>"; };
+		94EBB37232E4414EAA2B731B /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
+		99D2580CC6484F488D1C97E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CF85C3F9BF84A76A26D1DF9 /* TouchResponseEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchResponseEngine.swift; sourceTree = "<group>"; };
+		A0BC33B2FA424F7E88AE48CF /* MapLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayout.swift; sourceTree = "<group>"; };
+		A42CCC7B62A64F5D95519B6E /* DotFieldGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotFieldGenerator.swift; sourceTree = "<group>"; };
+		A6665D46C3AC42E78B76C9B9 /* ParticleShaderSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleShaderSource.swift; sourceTree = "<group>"; };
+		B4614A8BFDA140E0B9B8B622 /* united-states.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "united-states.json"; sourceTree = "<group>"; };
+		B77D79363E95417BB42EEFC5 /* india.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = india.json; sourceTree = "<group>"; };
+		C7B7DB83075C4851B34F83AC /* MetalDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalDotView.swift; sourceTree = "<group>"; };
+		CB0F37D239944000891FF4E5 /* MapPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPickerView.swift; sourceTree = "<group>"; };
+		D41CF25FD3E94AA593FD1078 /* europe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = europe.json; sourceTree = "<group>"; };
+		D9B68F6DEBCE43BFB6423138 /* north-america.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "north-america.json"; sourceTree = "<group>"; };
+		DFB7BDBC791246C2AD3E1C0A /* DotShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotShape.swift; sourceTree = "<group>"; };
+		E1E6FAD54E4948F9A125D3DE /* MapDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDot.swift; sourceTree = "<group>"; };
+		E40B519AAC1249EE841B8B0C /* canada.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = canada.json; sourceTree = "<group>"; };
+		F4A10D49A04C45F2B55147F9 /* WorldLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLoaderView.swift; sourceTree = "<group>"; };
+		FFCA612E37034BFC85F14A5C /* antarctica.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = antarctica.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6DF964E89A4716B5872F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098518C7FC5B43BDB0AEFEEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFB7BDBC791246C2AD3E1C0A /* DotShape.swift */,
+				512EDF168C2140C38A12DFE8 /* LoaderPresentationStyle.swift */,
+				843C685B152B4F489203B4AB /* MapDefinition.swift */,
+				E1E6FAD54E4948F9A125D3DE /* MapDot.swift */,
+				089AA06E01BA43D2834AC96E /* WorldLoaderConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		108A1A5AD8A64255BCB718DE /* WorldLoader */ = {
+			isa = PBXGroup;
+			children = (
+				99D2580CC6484F488D1C97E5 /* ContentView.swift */,
+				488B5212BE5A49C7866F8291 /* WorldLoaderApp.swift */,
+				3016CB3337B54BDD8F28AB1F /* Core */,
+				E0161F8B796941C28CD12304 /* Views */,
+				6651975F3E4A45A097DAE8D2 /* Demo */,
+				B9783EDB0A2C42268AA1FE10 /* Resources */,
+				2AC1AD12FAF84AFCB71ED924 /* Assets.xcassets */,
+			);
+			path = WorldLoader;
+			sourceTree = "<group>";
+		};
+		239AE84CAED64DA9B385E34E /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				A6665D46C3AC42E78B76C9B9 /* ParticleShaderSource.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		3016CB3337B54BDD8F28AB1F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				098518C7FC5B43BDB0AEFEEA /* Models */,
+				E90DE553A4DE4722B2406B33 /* Engine */,
+				686EEE82E85748ACBBE7EE72 /* Maps */,
+				239AE84CAED64DA9B385E34E /* Metal */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6651975F3E4A45A097DAE8D2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7418EEF6ED284733B3C1243B /* ContainerLoaderDemo.swift */,
+				1AB68959B46843B49B48CCFF /* DemoHomeView.swift */,
+				71B8A0647CCF4EE9A9BAA6A7 /* FullScreenLoaderDemo.swift */,
+				7B02C142A7B5462DB73A36F5 /* RefreshLoaderDemo.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		686EEE82E85748ACBBE7EE72 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0B3DC99BC8CD4EA6867FA6F3 /* MapCatalog.swift */,
+				1C62CA5194BF4A0FA4C0638B /* MapResources.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		899D2877E79A4FDABBB4D8E2 = {
+			isa = PBXGroup;
+			children = (
+				108A1A5AD8A64255BCB718DE /* WorldLoader */,
+				91E07D984E4548809E6AD08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E07D984E4548809E6AD08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7291C230BB224689A42AC6B5 /* WorldLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC09A76B270412AAA5F1AEB /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				6230C7926B284294BEE053D7 /* africa.json */,
+				FFCA612E37034BFC85F14A5C /* antarctica.json */,
+				6C4C6FCBC4E34C529909916A /* asia.json */,
+				87B7008AC1184CFF96906563 /* australia-country.json */,
+				912D03CA0FCB4320A4C12299 /* australia.json */,
+				1C6FA33CFC4C4B0897CA088F /* brazil.json */,
+				E40B519AAC1249EE841B8B0C /* canada.json */,
+				94EBB37232E4414EAA2B731B /* catalog.json */,
+				11AEF460062B4511A8C74085 /* china.json */,
+				D41CF25FD3E94AA593FD1078 /* europe.json */,
+				B77D79363E95417BB42EEFC5 /* india.json */,
+				D9B68F6DEBCE43BFB6423138 /* north-america.json */,
+				5C53379FE2204B66B5781680 /* russia.json */,
+				0C8EDEDC42544963A43B4FAE /* south-america.json */,
+				B4614A8BFDA140E0B9B8B622 /* united-states.json */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		B9783EDB0A2C42268AA1FE10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FC09A76B270412AAA5F1AEB /* Maps */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0161F8B796941C28CD12304 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AD143DA77494E71BDBC7FBB /* CustomizationPanel.swift */,
+				687E0353E64D48F9BDE00B1A /* DotShapeView.swift */,
+				CB0F37D239944000891FF4E5 /* MapPickerView.swift */,
+				C7B7DB83075C4851B34F83AC /* MetalDotView.swift */,
+				821BFE56F9A3412E8DEC8A1C /* WorldLoaderRefreshContainer.swift */,
+				F4A10D49A04C45F2B55147F9 /* WorldLoaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E90DE553A4DE4722B2406B33 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1F70B951B4344EE8A3348C64 /* BorderGlowAnimator.swift */,
+				A42CCC7B62A64F5D95519B6E /* DotFieldGenerator.swift */,
+				A0BC33B2FA424F7E88AE48CF /* MapLayout.swift */,
+				6E42EEC26A3D451AA4C722C7 /* MapMorpher.swift */,
+				9CF85C3F9BF84A76A26D1DF9 /* TouchResponseEngine.swift */,
+				30BEAC0A1F384B7A9220C623 /* WorldLoaderController.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A264F3E50D446288DF49A12 /* WorldLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B38740B5254DE78EA28317 /* Build configuration list for PBXNativeTarget "WorldLoader" */;
+			buildPhases = (
+				7C9B36363AE641F99CA30331 /* Sources */,
+				BC6DF964E89A4716B5872F73 /* Frameworks */,
+				3D8DFC7398874233855BEF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldLoader;
+			productName = WorldLoader;
+			productReference = 7291C230BB224689A42AC6B5 /* WorldLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CA8541001744F893D49BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2A264F3E50D446288DF49A12 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = AB7882FFE30E4597B8272897 /* Build configuration list for PBXProject "WorldLoader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899D2877E79A4FDABBB4D8E2;
+			productRefGroup = 91E07D984E4548809E6AD08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A264F3E50D446288DF49A12 /* WorldLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8DFC7398874233855BEF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E55178119F247E89301D72E /* Assets.xcassets in Resources */,
+				6D70EF954CE241F690B417B5 /* africa.json in Resources */,
+				73328F2BE9C04CD0A2D5F4D2 /* antarctica.json in Resources */,
+				296086E2E43F42028BAC1205 /* asia.json in Resources */,
+				B5C27BC95C394B918CE4E4BE /* australia-country.json in Resources */,
+				D8DB554D2212484C9BD3636B /* australia.json in Resources */,
+				B55C1071A6DA4DC2B4344D5F /* brazil.json in Resources */,
+				5F0091DF5E2641DBB2C45248 /* canada.json in Resources */,
+				6079DE9486A24E69BD642687 /* catalog.json in Resources */,
+				45544C001B334F89932FE4DB /* china.json in Resources */,
+				FFFADEA6B07049A688F52334 /* europe.json in Resources */,
+				5D48F5C80F424F5AB27F8941 /* india.json in Resources */,
+				2A9EBE8F893247219B50D3DE /* north-america.json in Resources */,
+				D16A17ADAAD64EB3B4B2E511 /* russia.json in Resources */,
+				1DB584523229450C98AD00A2 /* south-america.json in Resources */,
+				9BEA4E6711CE430290B4DA67 /* united-states.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C9B36363AE641F99CA30331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3219FC7226AD4D0F8376FB9E /* ContentView.swift in Sources */,
+				1A567F2791CB474DB5009C97 /* BorderGlowAnimator.swift in Sources */,
+				81D1AB966FC54B719C23D463 /* DotFieldGenerator.swift in Sources */,
+				EE857AA04A0741569F3D9A09 /* MapLayout.swift in Sources */,
+				75830292E2E84829AF31D240 /* MapMorpher.swift in Sources */,
+				7E039C60161B493D939A1EE9 /* TouchResponseEngine.swift in Sources */,
+				3B0D12813A804CE5B697AA44 /* WorldLoaderController.swift in Sources */,
+				E2778094203A4E53B01DCF4E /* MapCatalog.swift in Sources */,
+				7542834D82EB43D38C0E166A /* MapResources.swift in Sources */,
+				24FE446BF8EE445D94018D02 /* ParticleShaderSource.swift in Sources */,
+				FF9A6F17A3A44D008E2430AC /* DotShape.swift in Sources */,
+				A3E24DC21F5F4DD6A1C17314 /* LoaderPresentationStyle.swift in Sources */,
+				F001AC263E464EB996450ADF /* MapDefinition.swift in Sources */,
+				D067BAAF279D44C39AFFFF32 /* MapDot.swift in Sources */,
+				D81D9F9412A249D6A188FD5A /* WorldLoaderConfig.swift in Sources */,
+				BA22AEF35AA24D40B79BCB3F /* ContainerLoaderDemo.swift in Sources */,
+				E13F98AAB3A24C1FA00F8B67 /* DemoHomeView.swift in Sources */,
+				7C2BA4F964C44C46B98A90F4 /* FullScreenLoaderDemo.swift in Sources */,
+				AB5B2AAA57D641048D292C09 /* RefreshLoaderDemo.swift in Sources */,
+				39A4B9A98394447ABF7A168F /* CustomizationPanel.swift in Sources */,
+				41A5BEC20C2249F08FF1D96D /* DotShapeView.swift in Sources */,
+				7CFCAB4EC6EA4C28AC744A8C /* MapPickerView.swift in Sources */,
+				E11811C1760E46A39BC0F9EB /* MetalDotView.swift in Sources */,
+				D7C442DE13264CFA8166D018 /* WorldLoaderRefreshContainer.swift in Sources */,
+				9BB2BCF9D38843ED82604CDD /* WorldLoaderView.swift in Sources */,
+				40DF6E547FC84CC887E66A32 /* WorldLoaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EBF7B03839044E7BBC437EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8C03EDD858340588B4027D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3RDSLBCN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Loader";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldloader.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D827A71F781646CA944809BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3RDSLBCN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "World Loader";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldloader.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2BF6C86CBC94733A7E2F4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B38740B5254DE78EA28317 /* Build configuration list for PBXNativeTarget "WorldLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C03EDD858340588B4027D1 /* Debug */,
+				D827A71F781646CA944809BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7882FFE30E4597B8272897 /* Build configuration list for PBXProject "WorldLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBF7B03839044E7BBC437EF /* Debug */,
+				E2BF6C86CBC94733A7E2F4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CA8541001744F893D49BB3 /* Project object */;
+}

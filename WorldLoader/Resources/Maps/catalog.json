@@ -1,0 +1,104 @@
+{
+  "continents": [
+    {
+      "id": "africa",
+      "name": "Africa",
+      "file": "africa.json",
+      "rings": 52,
+      "points": 808
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "file": "asia.json",
+      "rings": 64,
+      "points": 1058
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "file": "europe.json",
+      "rings": 48,
+      "points": 746
+    },
+    {
+      "id": "north-america",
+      "name": "North America",
+      "file": "north-america.json",
+      "rings": 42,
+      "points": 715
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "file": "south-america.json",
+      "rings": 15,
+      "points": 388
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "file": "australia.json",
+      "rings": 11,
+      "points": 169
+    },
+    {
+      "id": "antarctica",
+      "name": "Antarctica",
+      "file": "antarctica.json",
+      "rings": 5,
+      "points": 94
+    }
+  ],
+  "countries": [
+    {
+      "id": "russia",
+      "name": "Russia",
+      "file": "russia.json",
+      "rings": 13,
+      "points": 435
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "file": "canada.json",
+      "rings": 30,
+      "points": 514
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "file": "china.json",
+      "rings": 2,
+      "points": 169
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "file": "united-states.json",
+      "rings": 6,
+      "points": 212
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "file": "brazil.json",
+      "rings": 1,
+      "points": 124
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "file": "india.json",
+      "rings": 1,
+      "points": 94
+    },
+    {
+      "id": "australia-country",
+      "name": "Australia",
+      "file": "australia-country.json",
+      "rings": 2,
+      "points": 125
+    }
+  ]
+}
